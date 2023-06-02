@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.98c9749b.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.147a3335.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.aec7b74f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5f69d45e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.1fcd9828.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.862abd3b.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.eb3270ba.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.750d3b98.js"><title>Home</title><!-- HEAD_svelte-t32ptj_START --><meta name="description" content="Svelte demo app"><!-- HEAD_svelte-t32ptj_END --><!-- HEAD_svelte-1bw0q7i_START --><link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v1.13.3/mapbox-gl.css"><!-- HEAD_svelte-1bw0q7i_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="app svelte-195cvbj"><main class="svelte-195cvbj">
+
+<section class="svelte-7w87tm"><div class="demo svelte-3gylqq">
+
+<div class="buttonHold svelte-nnf2e3"><button>Play
+    </button>
+    <button>Follow ball
+    </button>
+    <button>Follow person
+    </button>
+    <button>Reset view
+    </button>
+    <button id="record" class="svelte-nnf2e3">Record playback path
+    </button>
+    <label style="margin-left:30px">Voronoi
+        <input type="checkbox"></label>
+    <label>Heat
+        <input type="checkbox"></label></div>
+<div class="mapHold svelte-nnf2e3"><div id="map" class="map svelte-nnf2e3"></div>
+    
+</div>
+        <a href="https://www.pexels.com/video/drone-footage-of-a-volleyball-game-9826959/" target="_blank" alt="link to video file">Video by: Tom Fisk</a>
+</div>
+</section></main>
+</div>
+
+
+			
+			<script>
+				{
+					__sveltekit_64q1p2 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.aec7b74f.js"),
+						import("./_app/immutable/entry/app.862abd3b.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
